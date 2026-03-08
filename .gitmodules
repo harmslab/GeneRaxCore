@@ -3,4 +3,4 @@
 	url = https://github.com/harmslab/coraxlib.git
 [submodule "ext/MPIScheduler"]
 	path = ext/MPIScheduler
-	url = https://github.com/harmslab/MPIScheduler.git
+	url = https://github.com/harmslab/MPIScheduler
