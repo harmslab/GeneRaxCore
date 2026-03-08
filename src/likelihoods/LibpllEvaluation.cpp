@@ -164,7 +164,8 @@ double LibpllEvaluation::optimizeAllParametersOnce(corax_treeinfo_t *treeinfo, d
         RAXML_BRLEN_MIN,
         RAXML_BRLEN_MAX,
         RAXML_BFGS_FACTOR,
-        tolerance);
+        tolerance,
+        0.1);
 
     /* normalize scalers and scale the branches accordingly */
     if (treeinfo->brlen_linkage == CORAX_BRLEN_SCALED &&
